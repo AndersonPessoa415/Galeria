@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+
+    <style>
+        body {
+            background-image: url(img/botoes.jfif)
+        }
+        h1 {
+            text-align: center;
+            color: bisque;
+        }
+        .linhas{
+            text-align: center;
+        }
+        .imagens img {
+            width: 450px;
+            height: 450px;
+            padding: 30px 135px;
+        }
+        .circle {
+            color: white;
+            background-color: cinza;
+            padding: 60px;
+        }
+
+        .circle:hover {
+            border-radius: 50%;
+        }
+        .imgs img :hover{
+            border-radius: 50%;
+            filter: grayscale(100%);
+            transform: scale(1.1);
+            transition: all linear 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Galeria De Vilões</h1>
+    <div class="Geral">
+        <div class="linhas">
+            <div class="imagens">
+                <img src="img/Thanos Print.jfif" class="imgs">
+                <img src="img/ursula pint.jfif" class="imgs">
+                <img src="img/Joker o Filme.jfif" class="imgs">
+            </div>
+            <div class="imagens">
+                <img src="img/Malevola.jfif" class="imgs">
+                <img src="img/Green Goblin (Marvel).jfif" class="imgs">
+                <img src="img/Hera.jfif" class="imgs">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
